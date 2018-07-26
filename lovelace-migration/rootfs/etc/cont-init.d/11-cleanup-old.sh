@@ -8,7 +8,7 @@ source /usr/lib/hassio-addons/base.sh
 
 readonly CONFIG='/config/ui-lovelace.yaml'
 
-# Backup file if it exists
+# Remove old UI before migration, to prevent other "backup" things triggering.
 if hass.file_exists "${CONFIG}"; then
     rm -f "${CONFIG}"
 fi
