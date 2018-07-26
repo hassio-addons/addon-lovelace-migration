@@ -11,7 +11,7 @@
         "armhf",
         "i386"
     ],
-    "boot": "auto",
+    "boot": "manual",
     "hassio_api": true,
     "homeassistant_api": true,
     "map": [
