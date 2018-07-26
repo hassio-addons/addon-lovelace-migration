@@ -28,12 +28,8 @@
     "schema": {
         "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
         "output": "str",
-        "init_commands": [
-            "str"
-        ],
-        "post_commands": [
-            "str"
-        ]
+        "init_commands": ["str"],
+        "post_commands": ["str"]
     },
     "environment": {
         "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
