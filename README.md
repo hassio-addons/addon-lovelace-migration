@@ -203,7 +203,7 @@ SOFTWARE.
 [discord]: https://discord.gg/c5DvZ4e
 [dockerhub]: https://hub.docker.com/r/hassioaddons/lovelace-migration
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
-[forum]: https://community.home-assistant.io/t/repository-community-hass-io-add-ons/24705
+[forum]: https://community.home-assistant.io/t/community-hass-io-add-on-lovelace-migration/61552?u=dale3h
 [gitlabci-shield]: https://gitlab.com/hassio-addons/addon-lovelace-migration/badges/master/pipeline.svg
 [gitlabci]: https://gitlab.com/hassio-addons/addon-lovelace-migration/pipelines
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
