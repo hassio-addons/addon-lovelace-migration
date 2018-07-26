@@ -15,9 +15,9 @@
     "hassio_api": true,
     "homeassistant_api": true,
     "map": [
-      "config:rw",
-      "share:rw",
-      "backup:rw"
+        "config:rw",
+        "share:rw",
+        "backup:rw"
     ],
     "options": {
         "log_level": "info",
@@ -30,5 +30,8 @@
         "output": "str",
         "init_commands": ["str"],
         "post_commands": ["str"]
+    },
+    "environment": {
+        "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
     }
-  }
+}
