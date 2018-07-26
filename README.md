@@ -18,7 +18,16 @@ This add-on automatically converts your existing UI to the new Lovelace UI.
 
 ## About
 
-This add-on automatically converts your existing UI to the new Lovelace UI.
+The new Lovelace UI for Home Assistant is here, and it is extremely fast,
+extremely customizable and extremely extensible.
+
+Building the Lovelace UI configuration from scratch can be a bit of a
+daunting task, so this add-on helps create a starting point to work from.
+In most cases you will only need to run this add-on once, but if ever you
+do you need to run it again, backups of your existing `ui-lovelace.yaml` file
+are automatically created and maintained.
+
+[Click here to read more about Lovelace UI][lovelace-docs]
 
 ## Installation
 
@@ -136,7 +145,7 @@ Thank you for being involved! :heart_eyes:
 
 ## Authors & contributors
 
-The original setup of this repository is by [Franck Nijhof][frenck].
+The original setup of this repository is by [Dale Higgs][dale].
 
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
@@ -152,7 +161,7 @@ our [GitHub Repository][repository].
 
 MIT License
 
-Copyright (c) 2018 Franck Nijhof, Dale Higgs
+Copyright (c) 2018 Dale Higgs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -183,26 +192,26 @@ SOFTWARE.
 [commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-lovelace-migration.svg
 [commits]: https://github.com/hassio-addons/addon-lovelace-migration/commits/master
 [contributors]: https://github.com/hassio-addons/addon-lovelace-migration/graphs/contributors
+[dale]: https://github.com/dale3h
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg
 [discord]: https://discord.gg/c5DvZ4e
 [dockerhub]: https://hub.docker.com/r/hassioaddons/lovelace-migration
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
-[forum]: https://community.home-assistant.io/t/repository-community-hass-io-add-ons/24705?u=frenck
-[frenck]: https://github.com/frenck
+[forum]: https://community.home-assistant.io/t/repository-community-hass-io-add-ons/24705
 [gitlabci-shield]: https://gitlab.com/hassio-addons/addon-lovelace-migration/badges/master/pipeline.svg
 [gitlabci]: https://gitlab.com/hassio-addons/addon-lovelace-migration/pipelines
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [issue]: https://github.com/hassio-addons/addon-lovelace-migration/issues
-[keepchangelog]: http://keepachangelog.com/en/1.0.0/
+[keepchangelog]: https://keepachangelog.com/en/1.0.0/
 [layers-shield]: https://images.microbadger.com/badges/image/hassioaddons/lovelace-migration.svg
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-lovelace-migration.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
 [microbadger]: https://microbadger.com/images/hassioaddons/lovelace-migration
-[project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
 [pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/lovelace-migration.svg
 [reddit]: https://reddit.com/r/homeassistant
 [releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-lovelace-migration.svg
 [releases]: https://github.com/hassio-addons/addon-lovelace-migration/releases
 [repository]: https://github.com/hassio-addons/repository
-[semver]: http://semver.org/spec/v2.0.0.html
+[semver]: https://semver.org/spec/v2.0.0.html
 [version-shield]: https://images.microbadger.com/badges/version/hassioaddons/lovelace-migration.svg

@@ -7,7 +7,7 @@ COPY rootfs /
 
 # Setup base
 RUN \
-    apk add --no-cache python3 \
+    apk add --no-cache python3=3.6.4-r1 \
     \
     && python3 -m ensurepip \
     && rm -r /usr/lib/python*/ensurepip \
