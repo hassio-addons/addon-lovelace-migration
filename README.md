@@ -183,7 +183,6 @@ SOFTWARE.
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[anchore-shield]: https://anchore.io/service/badges/image/8f74a497abc908834244d697a67675ecd13080199270598283c8e0cea1b1723e
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [bountysource-shield]: https://img.shields.io/bountysource/team/hassio-addons/activity.svg
 [bountysource]: https://www.bountysource.com/teams/hassio-addons/issues
@@ -205,6 +204,7 @@ SOFTWARE.
 [keepchangelog]: https://keepachangelog.com/en/1.0.0/
 [layers-shield]: https://images.microbadger.com/badges/image/hassioaddons/lovelace-migration.svg
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-lovelace-migration.svg
+[lovelace-docs]: https://www.home-assistant.io/lovelace/
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
 [microbadger]: https://microbadger.com/images/hassioaddons/lovelace-migration
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
