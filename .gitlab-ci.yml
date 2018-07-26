@@ -61,7 +61,6 @@ stages:
     - |
       docker push \
         "registry.gitlab.com/${CI_PROJECT_PATH}/${ADDON_ARCH}:${CI_COMMIT_SHA}"
-
 # Generic scan template
 .scan: &scan
   <<: *dind
@@ -135,13 +134,6 @@ stages:
     - |
       docker push \
         "${DOCKER_HUB_ORG}/${ADDON_SLUG}:${ADDON_ARCH}-${TAG}"
-    - |
-      docker tag \
-        "registry.gitlab.com/${CI_PROJECT_PATH}/${ADDON_ARCH}:${CI_COMMIT_SHA}" \
-        "${DOCKER_HUB_ORG}/${ADDON_SLUG}-${ADDON_ARCH}:${TAG}"
-    - |
-      docker push \
-        "${DOCKER_HUB_ORG}/${ADDON_SLUG}-${ADDON_ARCH}:${TAG}"
   tags:
     - deploy
   only:
@@ -283,7 +275,6 @@ jsonlint:
       if [ "${FAILED}" = "1" ]; then
         exit 1
       fi
-
 markdownlint:
   <<: *preflight
   image:
@@ -300,7 +291,7 @@ build:armhf:
   <<: *build
   variables:
     ADDON_ARCH: armhf
-    FROM: hassioaddons/base-armhf:2.0.0
+    FROM: hassioaddons/base-armhf:2.0.1
   tags:
     - build
     - armhf
@@ -309,7 +300,7 @@ build:aarch64:
   <<: *build
   variables:
     ADDON_ARCH: aarch64
-    FROM: hassioaddons/base-aarch64:2.0.0
+    FROM: hassioaddons/base-aarch64:2.0.1
   tags:
     - build
     - aarch64
@@ -318,7 +309,7 @@ build:i386:
   <<: *build
   variables:
     ADDON_ARCH: i386
-    FROM: hassioaddons/base-i386:2.0.0
+    FROM: hassioaddons/base-i386:2.0.1
   tags:
     - build
     - i386
@@ -327,7 +318,7 @@ build:amd64:
   <<: *build
   variables:
     ADDON_ARCH: amd64
-    FROM: hassioaddons/base-amd64:2.0.0
+    FROM: hassioaddons/base-amd64:2.0.1
   tags:
     - build
     - amd64
