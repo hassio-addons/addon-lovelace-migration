@@ -22,12 +22,14 @@
     "options": {
         "log_level": "info",
         "output": "/config/ui-lovelace.yaml",
+        "auto_backups": true,
         "init_commands": [],
         "post_commands": []
     },
     "schema": {
         "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
         "output": "str",
+        "auto_backups": "bool",
         "init_commands": ["str"],
         "post_commands": ["str"]
     },

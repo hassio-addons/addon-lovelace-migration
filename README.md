@@ -66,6 +66,7 @@ Lovelace Migration add-on configuration:
 {
   "log_level": "info",
   "output": "/config/ui-lovelace.yaml",
+  "auto_backups": true,
   "init_commands": [],
   "post_commands": []
 }
@@ -94,6 +95,12 @@ you are troubleshooting.
 Sets the output file location of the Lovelace config. If the file exists, it
 will automatically be backed up. This value is set to
 `/config/ui-lovelace.yaml` by default.
+
+### Option: `auto_backups`
+
+This option allows you to enable/disable automated backups. Each time
+the add-on runs, it will ensure your existing Lovelace configuration is
+stored safely in the `/backups/lovelace-migration` folder.
 
 ### Option: `init_commands`
 
