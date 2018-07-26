@@ -6,7 +6,7 @@
 # shellcheck disable=SC1091
 source /usr/lib/hassio-addons/base.sh
 
-readonly CONFIG='/config/ui-lovelace.yaml'
+readonly CONFIG=$(hass.config.get 'output')
 
 # Remove old UI before migration, to prevent other "backup" things triggering.
 if hass.file_exists "${CONFIG}"; then

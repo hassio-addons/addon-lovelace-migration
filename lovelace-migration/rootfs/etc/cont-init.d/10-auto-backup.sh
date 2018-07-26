@@ -7,7 +7,7 @@
 source /usr/lib/hassio-addons/base.sh
 
 readonly BACKUP_DIR='/backup/lovelace-migration'
-readonly CONFIG='/config/ui-lovelace.yaml'
+readonly CONFIG=$(hass.config.get 'output')
 declare backup
 
 # Stop executing when backups are disabled
