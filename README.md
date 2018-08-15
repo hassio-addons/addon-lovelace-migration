@@ -132,10 +132,11 @@ Got questions?
 
 You have several options to get them answered:
 
-- The Home Assistant [Community Forum][forum], we have a
-  [dedicated topic][forum] on that forum regarding this repository.
-- The Home Assistant [Discord Chat Server][discord] for general Home Assistant
-  discussions and questions.
+- The [Community Hass.io Add-ons Discord chat server][discord] for add-on
+  support and feature requests.
+- The [Home Assistant Discord chat server][discord-ha] for general Home
+  Assistant discussions and questions.
+- The Home Assistant [Community Forum][forum].
 - Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
 
 You could also [open an issue here][issue] GitHub.
@@ -199,8 +200,9 @@ SOFTWARE.
 [commits]: https://github.com/hassio-addons/addon-lovelace-migration/commits/master
 [contributors]: https://github.com/hassio-addons/addon-lovelace-migration/graphs/contributors
 [dale]: https://github.com/dale3h
-[discord-shield]: https://img.shields.io/discord/330944238910963714.svg
-[discord]: https://discord.gg/c5DvZ4e
+[discord-ha]: https://discord.gg/c5DvZ4e
+[discord-shield]: https://img.shields.io/discord/478094546522079232.svg
+[discord]: https://discord.me/hassioaddons
 [dockerhub]: https://hub.docker.com/r/hassioaddons/lovelace-migration
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/community-hass-io-add-on-lovelace-migration/61552?u=dale3h
