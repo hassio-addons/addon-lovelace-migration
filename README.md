@@ -168,7 +168,7 @@ our [GitHub Repository][repository].
 
 MIT License
 
-Copyright (c) 2018 Dale Higgs
+Copyright (c) 2018-2019 Dale Higgs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -211,7 +211,7 @@ SOFTWARE.
 [layers-shield]: https://images.microbadger.com/badges/image/hassioaddons/lovelace-migration.svg
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-lovelace-migration.svg
 [lovelace-docs]: https://www.home-assistant.io/lovelace/
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2018.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
 [microbadger]: https://microbadger.com/images/hassioaddons/lovelace-migration
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
 [pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/lovelace-migration.svg
