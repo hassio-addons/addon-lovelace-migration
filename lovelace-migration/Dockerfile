@@ -19,7 +19,7 @@ RUN \
 # Script to run after startup
 CMD ["/usr/bin/run.sh"]
 
-# Build arugments
+# Build arguments
 ARG BUILD_ARCH
 ARG BUILD_DATE
 ARG BUILD_REF
